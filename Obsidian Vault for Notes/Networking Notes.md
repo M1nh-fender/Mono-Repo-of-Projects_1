@@ -1,0 +1,2 @@
+[FREE CCNA // What is a Network? // Day 0 (youtube.com)](https://www.youtube.com/watch?v=S7MNX_UD7vY&list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P)
+[Free CCNA | Network Devices | Day 1 | CCNA 200-301 Complete Course (youtube.com)](https://www.youtube.com/results?search_query=ccna+full+course+playlist)
