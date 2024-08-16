@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "1a742376ee3258fc",
+        "id": "beb09193fb865771",
         "type": "tabs",
         "children": [
           {
-            "id": "9d7e39d4c7a654ae",
+            "id": "d2df2e0e14513be8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Temp Start.md",
+                "file": "Python Understanding.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8e7dc26300464c23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java Understanding.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dcab77bfbe151140",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python Understanding.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1551eaa587fe1579",
@@ -85,9 +111,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Temp Start.md",
-                "collapseAll": false,
-                "extraContext": false,
+                "file": "Python Understanding.md",
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -102,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Temp Start.md",
+                "file": "Python Understanding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,11 +151,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Temp Start.md"
+                "file": "Python Understanding.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -146,10 +173,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9d7e39d4c7a654ae",
+  "active": "dcab77bfbe151140",
   "lastOpenFiles": [
+    "Java Understanding.md",
     "Python Understanding.md",
-    "Temp Start.md",
+    "LeetCode Notes.md",
+    "Lua Understanding.md",
     "Dev Containers Notes.md",
     "Untitled"
   ]
