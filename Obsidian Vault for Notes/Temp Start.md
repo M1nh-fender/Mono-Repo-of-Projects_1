@@ -67,3 +67,11 @@ Here's how you can write each of these logical operations in Python:
      result = not (A ^ B)  # True if both are the same (either both True or both False)
      ```
 
+
+
+// is floor division, so number rounded down
+
+## edge list is a common way to store graphs....
+edgeList = [0, 1], [1, 2]
+
+so point 0 can go to 1, point 1 can go to 2.....  This assumes a directed graph

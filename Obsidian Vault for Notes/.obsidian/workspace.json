@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1759a1a1518b0232",
+        "id": "1a742376ee3258fc",
         "type": "tabs",
         "children": [
           {
-            "id": "5ecc33074764091a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Temp Start.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5fd86bea0fb9d447",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Temp Start.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "898f7e9d7df09d68",
+            "id": "9d7e39d4c7a654ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,11 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "898f7e9d7df09d68",
+  "active": "9d7e39d4c7a654ae",
   "lastOpenFiles": [
     "Python Understanding.md",
-    "Dev Containers Notes.md",
     "Temp Start.md",
+    "Dev Containers Notes.md",
     "Untitled"
   ]
 }
