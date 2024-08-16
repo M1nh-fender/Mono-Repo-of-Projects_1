@@ -1,6 +1,6 @@
 Purpose: To understand the python nuances
 
-## Coding Area Template
+*Template*
 ```python
 
      ```
@@ -49,9 +49,6 @@ return new_list
 heapq.heappushpop
 
 To make heapq from min to max heap, we just multiple all the values by negative one so it like basically a heapmax....
-
-
-
 
 ## Python List Comprehension
 ---
@@ -254,6 +251,62 @@ Output => [0, 0, 0, 0, 1, 0, 1, 1] #Same thing as before but not as clear
 ```
 
 ### DFS
+---
+- Recursive
 ```python
+D = defaultdict(list) #from above... ^
+
+def dfs_recursive(node):
+	print(node) #Processing
+	for neighborN in D[node]:
+		if neighborN not in seen:
+			seen.add
+			dfs_recursive(neighborN)
+
+source = 0
+seen = set()
+see.add(source)
+dfs_recursive(source)
+     ```
+
+- Iterative
+```python
+source = 0
+
+seen = set()
+seen.add(source)
+stack = [source]
+
+while stack:
+	node = stack.pop()
+	print(node)
+	for neighborN in D[node]:
+		if neighborN not in seen:
+			seen.add(neighborN)
+			stack.append(neighborN)
 
      ```
+
+### BFS
+---
+```python
+source = 0
+
+from collections import deque
+
+seen = set()
+see.add(source)
+q = deque()
+q.append(source)
+
+while q:
+	node = q.popleft()
+	print(node)
+	for neighborN in D[node]:
+		if neighborN not in seen:
+			seen.add(neighborN)
+			q.append(neighborN)
+
+     ```
+
+

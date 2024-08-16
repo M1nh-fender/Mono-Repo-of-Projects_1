@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1551eaa587fe1579",
@@ -160,8 +159,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,7 +171,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dcab77bfbe151140",
+  "active": "5de52b9122780ec8",
   "lastOpenFiles": [
     "Java Understanding.md",
     "Python Understanding.md",
