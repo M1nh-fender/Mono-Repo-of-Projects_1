@@ -4,7 +4,6 @@ Purpose: To understand the python nuances
 ```python
 
      ```
----
 ## Dictionaries
 --- 
 in this example code
@@ -343,3 +342,33 @@ txt = "Apples are tasty."
 result = re.sub(r"apple", "banana", txt, flags=re.IGNORECASE)
 print(result)  # Output: "bananas are tasty."
 ```
+
+---
+# Recursion Note
+---
+```python
+class Solution(object):
+
+    def diameterOfBinaryTree(self, root):
+        """
+        :type root: TreeNode
+        :rtype: int
+        """
+        largestDiameter = [0] #**Why do we have this?**
+
+        def height(treeNode):
+            if treeNode is None:
+                return 0
+
+            leftHeight = height(treeNode.left)
+            rightHeight = height(treeNode.right)
+            diameter = leftHeight + rightHeight
+
+            largestDiameter[0] = max(largestDiameter[0], diameter)
+            
+            return 1 + max(leftHeight, rightHeight)
+
+        height(root)
+        return largestDiameter[0]
+     ```
+- The reason we have *largestDiameter = [0]* is because in the recursive call, if we did not have an array and had like *largestDiameter  = 0*, largestDiameter would be a local variable in that call of the recursion and we need a global variable to be updated.  So having it an array element would make it global
