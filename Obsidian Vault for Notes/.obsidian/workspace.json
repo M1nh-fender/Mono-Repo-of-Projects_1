@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring Boot 3 Keycloak OAuth2 Project.md",
+                "file": "Python Understanding.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring Boot 3 Keycloak OAuth2 Project.md",
+                "file": "Python Understanding.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring Boot 3 Keycloak OAuth2 Project.md",
+                "file": "Python Understanding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring Boot 3 Keycloak OAuth2 Project.md"
+                "file": "Python Understanding.md"
               }
             }
           }
@@ -209,8 +209,8 @@
   },
   "active": "638a1eca5055fee2",
   "lastOpenFiles": [
-    "Spring Security Notes.md",
     "Spring Boot 3 Keycloak OAuth2 Project.md",
+    "Spring Security Notes.md",
     "Networking Notes.md",
     "Python Understanding.md",
     "Language",

@@ -310,3 +310,36 @@ while q:
      ```
 
 
+## String manipulation shananigans....
+---
+### .isalnum()
+```python
+s[x].isalnum()
+     ```
+### import re (regular expression)
+
+```python
+	import re
+    cleaned_string = re.sub(r'[^a-zA-Z0-9]', '', input_string)
+```
+
+
+- `re.sub(pattern, replacement, string, count=0, flags=0)`
+- It replaces occurrences of the `pattern` in the `string` with the specified `replacement`.
+- You can control the number of replacements using the optional `count` parameter.
+
+```python
+import re
+
+txt = "The rain in Spain"
+result = re.sub("s", "9", txt)
+print(result)  # Output: "The rain in 9pain"
+```
+
+- There is a flag option as well
+```python
+import re
+txt = "Apples are tasty."
+result = re.sub(r"apple", "banana", txt, flags=re.IGNORECASE)
+print(result)  # Output: "bananas are tasty."
+```
