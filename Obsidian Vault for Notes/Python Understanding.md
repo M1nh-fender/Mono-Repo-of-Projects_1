@@ -372,3 +372,29 @@ class Solution(object):
         return largestDiameter[0]
      ```
 - The reason we have *largestDiameter = [0]* is because in the recursive call, if we did not have an array and had like *largestDiameter  = 0*, largestDiameter would be a local variable in that call of the recursion and we need a global variable to be updated.  So having it an array element would make it global
+
+
+# Enumeration
+---
+```python
+# A list of items
+fruits = ['apple', 'banana', 'cherry']
+
+
+for index, varName in enumerate(*array*):
+    print(index, varName)
+
+# Using enumerate to loop over the list with an index
+for index, fruit in enumerate(fruits):
+    print(index, fruit)
+
+
+Note, index is always first then the variable name of the item
+
+Output below
+--------------
+0 apple
+1 banana
+2 cherry
+
+     ```

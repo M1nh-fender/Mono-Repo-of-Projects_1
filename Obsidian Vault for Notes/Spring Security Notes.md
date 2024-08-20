@@ -33,3 +33,6 @@
 - How does authorization occur?
 	- This is done via 'Granted Authority'
 - Roles are a group of authorities....
+# Spring Security More Details
+---
+- 
