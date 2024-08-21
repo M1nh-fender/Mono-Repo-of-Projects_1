@@ -398,3 +398,81 @@ Output below
 2 cherry
 
      ```
+
+# any() --- The any function
+---
+Copy paste from online...
+In Python, both `any()` and `map()` functions are used for different purposes:
+
+### `any()` Function
+- **Purpose**: Checks if any element in an iterable is `True`.
+- **Return Value**: Returns `True` if at least one element in the iterable is `True`. Otherwise, it returns `False`.
+- **Usage**: Commonly used when you want to check if there's at least one `True` value in a list, tuple, or other iterable.
+
+**Example**:
+```python
+# List of values
+values = [0, 0, 1, 0]
+
+# Check if any value is True (non-zero in this case)
+result = any(values)
+
+print(result)  # Output: True
+```
+
+### `map()` Function
+- **Purpose**: Applies a specified function to every item of an iterable (like a list or tuple) and returns a map object (which is an iterator).
+- **Return Value**: Returns a map object, which can be converted into a list, tuple, etc., to see the results.
+- **Usage**: Useful when you want to apply a function to each item in an iterable.
+
+**Example**:
+```python
+# Function to double a number
+def double(x):
+    return x * 2
+
+# List of values
+values = [1, 2, 3, 4]
+
+# Apply the double function to each element in the list
+result = map(double, values)
+
+# Convert the map object to a list and print it
+print(list(result))  # Output: [2, 4, 6, 8]
+
+
+```
+
+### Key Differences
+- **Functionality**: `any()` is for checking conditions across an iterable, while `map()` is for transforming each element in an iterable.
+- **Return Type**: `any()` returns a single boolean value, whereas `map()` returns an iterator of transformed elements.
+- **Use Case**: Use `any()` when you need to check if there's any `True` value, and `map()` when you want to apply a function to all elements in an iterable.
+
+
+
+# Binary Search with a condition
+---
+Before I usually think of finding a target but binary search can also be used to find first occurring condition
+
+```python
+# Condition based
+B = [False, False, False, False, False, False, True]
+
+def binary_search_condition(arr):
+  N = len(arr)
+  L = 0
+  R = N - 1
+
+  while L < R:
+    M = (L + R) // 2
+
+    if B[M]:
+      R = M
+    else:
+      L = M + 1
+  return L
+
+binary_search_condition(B)
+
+(prints out 6)
+```
