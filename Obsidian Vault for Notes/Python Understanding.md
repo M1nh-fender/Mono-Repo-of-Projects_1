@@ -476,3 +476,40 @@ binary_search_condition(B)
 
 (prints out 6)
 ```
+
+
+# Nonlocal
+---
+```python
+
+     ```
+Used to use variables outside of the scope of a function:
+[Python nonlocal Keyword - GeeksforGeeks](https://www.geeksforgeeks.org/python-nonlocal-keyword/)
+
+Not used for global variables....
+# ZIP
+---
+```python
+name = [ "Manjeet", "Nikhil", "Shambhavi", "Astha" ]
+roll_no = [ 4, 1, 3, 2 ]
+
+# using zip() to map values
+mapped = zip(name, roll_no)
+
+print(set(mapped))
+     ```
+ output: {('Nikhil', 1), ('Shambhavi', 3), ('Manjeet', 4), ('Astha', 2)}
+
+In this example, zip will map each array to have each index correspond with one another
+
+## Dictionary application as well
+```python
+stocks = ['GEEKS', 'For', 'geeks']
+prices = [2175, 1127, 2750]
+
+new_dict = {stocks: prices for stocks,
+            prices in zip(stocks, prices)}
+print(new_dict)
+
+     ```
+output: {'GEEKS': 2175, 'For': 1127, 'geeks': 2750}

@@ -4,71 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "beb09193fb865771",
+        "id": "1a742376ee3258fc",
         "type": "tabs",
         "children": [
           {
-            "id": "d2df2e0e14513be8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python Understanding.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8e7dc26300464c23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java Understanding.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dcab77bfbe151140",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python Understanding.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "30e6d2a1aa87684f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spring Security Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d0d5199744cc8ce0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spring Security Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "638a1eca5055fee2",
+            "id": "9d7e39d4c7a654ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -79,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -147,8 +86,8 @@
               "type": "backlink",
               "state": {
                 "file": "Python Understanding.md",
-                "collapseAll": true,
-                "extraContext": true,
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -207,17 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "638a1eca5055fee2",
+  "active": "5de52b9122780ec8",
   "lastOpenFiles": [
+    "Temp Start.md",
     "Spring Security Notes.md",
-    "Python Understanding.md",
     "Spring Boot 3 Keycloak OAuth2 Project.md",
     "Networking Notes.md",
-    "Language",
-    "SpringNotes",
-    "Java Understanding.md",
-    "LeetCode Notes.md",
     "Lua Understanding.md",
-    "Dev Containers Notes.md"
+    "Java Understanding.md",
+    "Python Understanding.md",
+    "Dev Containers Notes.md",
+    "Untitled"
   ]
 }
